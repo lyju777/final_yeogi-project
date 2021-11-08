@@ -16,7 +16,7 @@ import java.util.HashMap;
 @AllArgsConstructor
 @Controller
 public class SendPay {
-
+  // 사용자에게 문자메세지 발송
   @RequestMapping(value = "/smspay", method = RequestMethod.GET)
   @ResponseBody
   public String sms(String phone, String mj, String mj2, String code) throws UnsupportedEncodingException {
