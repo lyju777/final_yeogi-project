@@ -1,5 +1,8 @@
 # final_yeogi-project
 
+<br>
+
+### 🛠 구현 기술
 ✅ Spring MVC기반 RESTful API 서버 구축
 
 ✅ Spring Security를 통한 사용자 인증 및 권한 부여 처리
