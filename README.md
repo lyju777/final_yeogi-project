@@ -13,6 +13,28 @@
 
 <br>
 
+## 🪄 Install
+
+### Requirements
+```sh
+plugins {
+   id 'java'
+   id 'org.springframework.boot' version '2.7.13'
+   id 'io.spring.dependency-management' version '1.1.6'
+}
+
+group = 'com.rezero'
+version = '0.0.1-SNAPSHOT'
+
+java {
+   toolchain {
+      languageVersion = JavaLanguageVersion.of(11)
+   }
+
+```
+
+<br>
+
 ![1.project](./src/main/resources/static/images/1.project.png)
 ![2.project](./src/main/resources/static/images/2.project.png)
 ![3.project](./src/main/resources/static/images/3.project.png)
