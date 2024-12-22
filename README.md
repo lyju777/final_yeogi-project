@@ -2,14 +2,35 @@
 
 <br>
 
-### 🛠 구현 기술
-✅ Spring MVC기반 RESTful API 서버 구축
+**💡프로젝트 개요**
 
-✅ Spring Security를 통한 사용자 인증 및 권한 부여 처리
+여기어때 클론코딩 프로젝트는 기존의 여기어때 사이트를 클론하여 기획 의도에 맞게 재구성한 플랫폼입니다. Spring MVC 기반의 RESTful API 서버를 구축하여 데이터를 연동하고 Thymeleaf 템플릿을 사용한 서버 사이드 렌더링을 통해 사용자, 호스트, 관리자에게 필요한 서비스를 분리했습니다. 이를 통해 숙박 예약, 숙박 시설 등록, 그리고 사용자 관리 기능을 구현하였습니다.
 
-✅ Axios와 Thymeleaf를 통한 데이터 통신 및 서버 사이드 랜더링 구현
+<br>
 
-✅ HTML, CSS, JavaScript 기반 사용자 인터페이스 생성
+**🤝참여인원**
+
+FrontEnd(4명) | BackEnd(2명)
+
+<br>
+
+**🛠️기술 스택**
+
+**Client :  `Javascript`  `jQuery`  `HTML`   `CSS`  `axios`  `Bootstrap`**   
+
+**Server : `Java`  `JPA`  `Spring Boot`  `Oracle`  `Thymeleaf`**
+
+<br>
+
+**💻담당파트**
+
+- 호스트 등록을 위한 페이지 Form UI 구현
+- Custom DatePicker를 통한 날짜별 예약현황 조회 및 관리기능 구현
+- chart.js 라이브러리를 활용한 호스트 예약 현황조회 및 대시보드 UI 구현
+- 사용자 1:1문의 관리기능 구현
+- 사용자(예약/결제내역) 조회기능 구현
+- 검색 필터를 통한 전체 회원관리 조회기능 구현
+- 관리자를 통한 호스트 등록 승인기능 구현
 
 <br>
 
@@ -35,7 +56,6 @@ java {
 
 <br>
 
-![1.project](./src/main/resources/static/images/1.project.png)
 ![2.project](./src/main/resources/static/images/2.project.png)
 ![3.project](./src/main/resources/static/images/3.project.png)
 ![4.project](./src/main/resources/static/images/4.project.png)
