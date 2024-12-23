@@ -14,7 +14,7 @@ FrontEnd(4명) | BackEnd(2명)
 
 <br>
 
-**🛠️기술 스택**
+**🛠️기술스택**
 
 **Client :  `Javascript`  `jQuery`  `HTML`   `CSS`  `axios`  `Bootstrap`**   
 
